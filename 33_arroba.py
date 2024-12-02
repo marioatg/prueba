@@ -8,3 +8,5 @@ try:
 except:
 	print("Por favor, introduce un numero.")
 
+lista = [1,2]
+
