@@ -1,0 +1,11 @@
+p4v=float(input("4v:"))
+p4vi=float(input("4i:"))
+p5_2=float(input("5_2:"))
+p5_3=float(input("53:"))
+p7=float(input("7:"))
+p11=float(input("11:"))
+p14=float(input("14:"))
+p15=float(input("15:"))
+p16=float(input("16:"))
+suma=p4v+p4vi+p5_2+p5_3+p7+p11+p14+p15+p16
+print(suma*1.2)

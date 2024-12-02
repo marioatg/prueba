@@ -1,0 +1,6 @@
+print("Programa que cuenta el número de letras específicas en un texto")
+texto=input("Introduzca el texto: ")
+letra=input("Introduzca la letra a contar: ")
+letra_formateada=letra.lower()
+texto_formateado=texto.lower()
+print(texto_formateado.count(letra_formateada))

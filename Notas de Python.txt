@@ -1,0 +1,29 @@
+Curso de Python. Notas.
+
+Ejecutar un archivo de Python (en mi configuración) se usa el comando
+ctrl+alt+b
+
+
+15 de enero 2024. Aprendimos sobre el paquete io para trabajar con archivos
+externos así como sus métodos para leer archivos de texto dentro de python
+escribir en ellos dentro de python: ejemplos...
+
+from io import open 
+
+archivo_texto=open.("nombre.txt","w/r/a")  ###open lo que hace es crear un archivo
+en la carpeta donde estamos chamebando, la w o la r o la a indican si se va a leer o 
+a escribir o usar append en el archivo llamado nombre. La diferencia de write
+y append es que write borra todo y deja solo lo que se escribió y append solo lo
+añade. 
+
+archivo_texto.write("Me la pelas") ##esto escribe en nombre.text Me la pelas. 
+
+texto=archivo_texto.read() ###almacena en esta variable el texto que hay en el 
+archivo
+
+lista_de_texto=archivo_texto.readlines() ## esto transforma los renglones del texto
+a componentes de una lista. 
+
+archivo_texto.close() ###cierra el archivo.
+
+----------FIN VIDEO 37------------------------------------
